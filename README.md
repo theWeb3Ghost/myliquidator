@@ -1,4 +1,4 @@
-Liquidator script for morpho lending contracts.
+##Liquidator script for morpho lending contracts.
 
 This script identifies liquidate-able positions, simulate onchain to identify if the contract is really liquidtable, if yes runs aj onchain script that takes the position ... swaps the collateral and pays the contract, hearbly getting incentives according to the shares.
 
@@ -13,8 +13,8 @@ This script identifies liquidate-able positions, simulate onchain to identify if
 
 ### 1. Clone the Repository
 ```bash
-git clone [your-repo-url]
-cd [repo-name]
+git clone (https://github.com/theWeb3Ghost/myliquidator)
+cd myliquidator
 ```
 
 ### 2. Install Foundry
